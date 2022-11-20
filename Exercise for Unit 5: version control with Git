@@ -1,0 +1,356 @@
+C:\Users\Israel>cd ..
+
+C:\Users>cd ..
+
+C:\> cd C:\Users\Israel\Desktop\Exercise_unit_5
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git init
+Initialized empty Git repository in C:/Users/Israel/Desktop/Exercise_unit_5/.git/
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git add .
+warning: in the working copy of 'The hare and the turtle.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'White snow.txt', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   The hare and the turtle.txt
+        new file:   White snow.txt
+
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git commit -a -m "Commit for step 3"
+
+[master (root-commit) f6191aa] Commit for step 3
+ 2 files changed, 34 insertions(+)
+ create mode 100644 The hare and the turtle.txt
+ create mode 100644 White snow.txt
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2 (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git add .
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git status
+
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Ejercicio 7-11-22.txt
+
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git commit -a -m "Commit for step 4"
+
+[master 2ec0339] Commit for step 4
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Ejercicio 7-11-22.txt
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git config --global user.name "Israel Amat Gil"
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git config --global user.email israelamatgil@gmail.com
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git config --global user.name "Israel"
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git config --global user.name "Israel"
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git config --global user.name "Israel"
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git config --global user.name "Israel Amat Gil"
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+
+C:\Users\Israel>cd C:\Users\Israel\Desktop\Exercise_unit_5
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git init
+
+Reinitialized existing Git repository in C:/Users/Israel/Desktop/Exercise_unit_5/.git/
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e (HEAD -> master)
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit bbc78ab1001c884cfff81fbb37ce55a487fd1277 (HEAD -> master, origin/master)
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:38:33 2022 +0100
+
+    ojoil
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+commit eb30c14e54d72e00ce69870de63ae7300b5de631 (HEAD -> master, origin/master)
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:41:21 2022 +0100
+
+    Commit for step 5
+
+commit bbc78ab1001c884cfff81fbb37ce55a487fd1277
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:38:33 2022 +0100
+
+    ojoil
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git add .
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+commit eb30c14e54d72e00ce69870de63ae7300b5de631 (HEAD -> master, origin/master)
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:41:21 2022 +0100
+
+    Commit for step 5
+
+commit bbc78ab1001c884cfff81fbb37ce55a487fd1277
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:38:33 2022 +0100
+
+    ojoil
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit eb30c14e54d72e00ce69870de63ae7300b5de631 (HEAD -> master, origin/master)
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:41:21 2022 +0100
+
+    Commit for step 5
+
+commit bbc78ab1001c884cfff81fbb37ce55a487fd1277
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:38:33 2022 +0100
+
+    ojoil
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git add seis.txt
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit eb30c14e54d72e00ce69870de63ae7300b5de631 (HEAD -> master, origin/master)
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:41:21 2022 +0100
+
+    Commit for step 5
+
+commit bbc78ab1001c884cfff81fbb37ce55a487fd1277
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:38:33 2022 +0100
+
+    ojoil
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git add .
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+
+commit eb30c14e54d72e00ce69870de63ae7300b5de631 (HEAD -> master, origin/master)
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:41:21 2022 +0100
+
+    Commit for step 5
+
+commit bbc78ab1001c884cfff81fbb37ce55a487fd1277
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:38:33 2022 +0100
+
+    ojoil
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
+
+C:\Users\Israel\Desktop\Exercise_unit_5>git log
+commit eeea763df7982a6ffa0429e917cdc3e01308ddfd (HEAD -> master, origin/master)
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 11:06:11 2022 +0100
+
+    commit for step 6
+
+commit eb30c14e54d72e00ce69870de63ae7300b5de631
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:41:21 2022 +0100
+
+    Commit for step 5
+
+commit bbc78ab1001c884cfff81fbb37ce55a487fd1277
+Author: Israel Amat Gil <israelamatgil@gmail.com>
+Date:   Fri Nov 11 10:38:33 2022 +0100
+
+    ojoil
+
+commit 2ec0339eaa0158809e5474c65c51bb0d1849392e
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:18:41 2022 +0100
+
+    Commit for step 4
+
+commit f6191aa1bebb1eed24cfe6b8ef676b89908169e2
+Author: unknown <israelamatgil@gmail.com>
+Date:   Mon Nov 7 14:15:54 2022 +0100
+
+    Commit for step 3
